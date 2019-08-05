@@ -16,6 +16,8 @@
 
 DEVICE_FOLDER := device/samsung/gta2xl
 
+ALLOW_MISSING_DEPENDENCIES=true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon

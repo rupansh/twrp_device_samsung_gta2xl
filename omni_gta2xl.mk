@@ -10,6 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit common omni stuff
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
