@@ -94,3 +94,4 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_USE_TOOLBOX := true
+TW_INPUT_BLACKLIST := "hbtp_vm" # disable cursor
