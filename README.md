@@ -4,7 +4,8 @@
 
 To build:
 
-```sh
+```
 . build/envsetup.sh
 lunch omni_gta2xl-eng
-mka recoveryimage```
+mka recoveryimage
+```
