@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(filter gta3xl,$(TARGET_DEVICE)),)
+ifneq ($(filter gta2xl,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
