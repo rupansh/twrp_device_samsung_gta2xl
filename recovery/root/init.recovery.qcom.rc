@@ -35,11 +35,6 @@ on fs
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
 
-on init
-    write /sys/class/android_usb/android0/bcdUSB 0x0200
-    write /sys/class/android_usb/android0/idVendor 0x18d1
-    write /sys/class/android_usb/android0/idProduct 0xd001
-
 service sbinqseecomd /sbin/qseecomfsd
     oneshot
     disabled
